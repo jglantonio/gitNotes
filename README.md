@@ -42,7 +42,7 @@ git pull origin <rama>
 ````
 Hacer un reset hard a un punto en concreto del proyectos
 ````
-git reset - - hard <id>
+git reset -- hard <id>
 ````
 Eliminar una rama creada por equivocación de forma local
 ````
