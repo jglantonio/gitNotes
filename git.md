@@ -41,11 +41,26 @@ Descargamos dentro del origin a la rama que corresponde
 ````
 git pull origin <rama>
 ````
+## TIPS
+### Ir a un commit en concreto hacia atrás.
+#### Paso 1 
 Hacer un reset hard a un punto en concreto del proyectos
 ````
 git reset -- hard <id>
 ````
+#### Paso 2
+Luego si necesitamos hacer un push se realiza de la siguiente forma
+```
+git push origin <rama> --force
+```
+Con esto lo que hace será subir nuestro commit, pero eliminará todos 
+los que habia delante de este `id`en el `Paso 1`. 
+
+### Eliminar una rama
+
 Eliminar una rama creada por equivocación de forma local
 ````
 git branch -D <rama>
 ````
+Se puede dar el caso que queremos elimnar sobre el que estamos ,
+la opción es cambiar a otra rama y desde esas ejecutar este comando.
