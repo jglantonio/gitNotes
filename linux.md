@@ -11,6 +11,7 @@ ls / -lR | grep "hola"
 ```
  * `l` para poner en detalle todos los documentos.
  * `R` que sea de forma recursiva
+ 
 ### 1.2. Permisos
 #### 1.2.1. Para carpetas
 Para dar permisos a una carpeta 
