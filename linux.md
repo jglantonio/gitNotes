@@ -23,7 +23,7 @@ Para dar permisos a las subcarpetas
 sudo chmod 777 <carpeta> -R
 ```
 #### 1.2.2. Para usuarios
-Para dar permisos a los usuarios
+Para asignar a un usuario de un grupo para el uso de una carpeta.
 ```
 chown <propietario>:<grupo> <carpeta> 
 ```
