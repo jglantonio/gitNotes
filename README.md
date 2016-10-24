@@ -11,7 +11,7 @@ Gestor de versiones , un CSV.
 ### Links
 
 1. Link de [formatear texto en Git](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
-
+2. Link de [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Vagrant
 
