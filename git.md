@@ -64,3 +64,9 @@ git branch -D <rama>
 ````
 Se puede dar el caso que queremos elimnar sobre el que estamos ,
 la opción es cambiar a otra rama y desde esas ejecutar este comando.
+
+## Clonar una rama en concreto
+
+Para clonar una rama en concreto se hace :
+
+`git clone -b <nombre_branch> <url_proyecto>`
