@@ -27,3 +27,14 @@ Para asignar a un usuario de un grupo para el uso de una carpeta.
 ```
 chown <propietario>:<grupo> <carpeta> 
 ```
+## 1.3. Copiar ficheros
+### 1.3.1. Copia normal
+Para copiar normal : 
+
+```
+cp -r <origen>/<fichero> <destino>/>fichero>
+```
+### 1.3.2. Copia remoto
+```
+scp -r <user>@<ip>:/<dirección_fichero> <destino>
+```
