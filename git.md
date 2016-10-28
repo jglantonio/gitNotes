@@ -70,3 +70,24 @@ la opción es cambiar a otra rama y desde esas ejecutar este comando.
 Para clonar una rama en concreto se hace :
 
 `git clone -b <nombre_branch> <url_proyecto>`
+
+## Subir un directorio a un repositorio
+````
+cd <directorio
+git init
+git add .
+git commit -m 'mensaje'
+git remote add origin <url>
+git push push origin master
+````
+## Subir un directorio a una rama de nuestro repositorio
+````
+cd <directorio
+git init
+git add .
+git commit -m 'mensaje'
+git remote add origin <url>
+git checkout -b <rama>
+git commit -m 'mensaje'
+git push push origin <rama>
+````
