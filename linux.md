@@ -38,3 +38,10 @@ cp -r <origen>/<fichero> <destino>/>fichero>
 ```
 scp -r <user>@<ip>:/<dirección_fichero> <destino>
 ```
+
+### Busqueda
+
+Para buscar una palabra en un fichero o directorio.
+```
+grep -r "texto" <directorio>
+```
