@@ -1,4 +1,4 @@
-# VAGRANT FILE
+# VAGRANT
 ## Introduccion
 Herramienta de de ambientes virtuales de forma ligera.
 
@@ -22,7 +22,7 @@ el siguiente comando:
 ````
 vagrant init
 ````
-4. Creamos la maquina virtual en la que trabajaremos.
+4. Creamos la maquina vsirtual en la que trabajaremos.
 ````
 vagant box add <nombre_maquina> <link de descarga>
 ````
@@ -32,8 +32,6 @@ Para mi caso : http://files.vagrantup.com/precise32.box
 ````
 config.vm.box = "base"
 ````
-a
-
 ````
 config.vm.box = "<nombre_maquina>"
 ````
@@ -48,3 +46,7 @@ maquina y el nombre al que nos queramos referir.
 `````
 192.168.x.x <nombre_que_queramo>
 `````
+
+# Links
+
+1. [Inicio en Vagrant] (http://codehero.co/como-instalar-y-configurar-vagrant/)
