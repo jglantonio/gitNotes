@@ -23,7 +23,7 @@ El sitio donde están localizados los ficheros de log se pueden ver en el direct
 ```
 less /var/log/apache2/envvars
 ```
-## FUNCIONEN LAS DIRECCIONES CANONICAS
+###  FUNCIONEN LAS DIRECCIONES CANONICAS
 ````
 sudo nano /etc/apache2/sites-available/directorio.conf
 <Directory /var/www/html/cestas>
