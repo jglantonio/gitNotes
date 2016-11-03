@@ -1,5 +1,5 @@
 # LARAVEL
-## GETTIN STARTED
+## Empezar
 ### Instalar Composer
 
 Primero hay que instalar el composer.
