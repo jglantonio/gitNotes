@@ -1,5 +1,5 @@
 
-#####Exportar base de datos
+##### Exportar base de datos
 
 ````
 mysqldump -u user -p nombreBaseDeDatos > baseDeDatos.sql
@@ -10,9 +10,12 @@ mysqldump -u user -p nombreBaseDeDatos > baseDeDatos.sql
 Este error se suele dar cuando se quiere importar.
 ````
 sed -ie 's/ROW_FORMAT=FIXED//g' /<directorio>/baseDeDatos.sql 
-
-````
-````
 sudo mysql -u user -p nombreBaseDeDatos < /<directorio>/baseDeDatos.sql 
 
 ````
+##### Matar una consulta en mysql
+````
+SHOW PROCESSLIST
+KILL ID
+````
+
