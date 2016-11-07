@@ -33,3 +33,21 @@ sudo nano /etc/apache2/sites-available/directorio.conf
     allow from all
 </Directory>
 ````
+### Certificado ssl 
+
+1. Se crea una carpeta ssl y dentro dos , una llamada crt y key
+
+2. se ejecuta el comando para crear los certifados
+````
+openssl req -x509 -newkey rsa:4096 -keyout ./key/key.pem -out ./ctr/cert.pem -days 365 -subj '/CN=localhost'
+
+http://stackoverflow.com/questions/10175812/how-to-create-a-self-signed-certificate-with-openssl
+https://www.youtube.com/watch?v=X09cT8n2KeE
+````
+3. Habilitamos el uso del puerto implicados
+
+**Notas** : Para saber si existen errores en la ejecutción .
+
+````
+journalctl -xe
+````
