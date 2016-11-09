@@ -71,6 +71,7 @@ Para clonar una rama en concreto se hace :
 
 `git clone -b <nombre_branch> <url_proyecto>`
 
+
 ## Subir un directorio a un repositorio
 ````
 cd <directorio
@@ -91,3 +92,13 @@ git checkout -b <rama>
 git commit -m 'mensaje'
 git push push origin <rama>
 ````
+## Crear un árbol en linea de comandos.
+````
+git log --graph --oneline --all 
+````
+Tenemos la opcion `--decorate` para que salga más agradable a la vista. .
+## Ver historial de git de los cambios locales realizados.
+````
+git log --all --pretty=format:"%h %cd %s (%an)" --since='20 days ago'
+````
+
