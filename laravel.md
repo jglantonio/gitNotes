@@ -62,8 +62,23 @@ En caso de tener otro tipo de hosting local no hace falta acceder , como en el c
 * composer.json , contiene las dependencias instaladas por laravel. Se puede introducir a mano para librerías externas no incluidas en las librerías de laravel.
 
 https://www.gitbook.com/book/ajgallego/laravel-5/details
+http://www.desarrolloweb.com/articulos/tareas-instalacion-laravel5-problemas.html
 
+### php	artisan
+Para saber las rutas que tenemos en nuestro fichero route.php
+````
+php artisan route:list
+````
+
+````
+php artisan 
+````
+Para ejecutar nuestro servidor web en el puerto 8080
+````
+php artisan serve --port=8080
+````
 ## Notas
 * En el fichero `config`tenemos la configuración de nuestro proyecto
 * Fichero `.env` para las variables de entorno
 * Para saber la versión de laravel instalada es en el directorio local `php artisan --version`
+
