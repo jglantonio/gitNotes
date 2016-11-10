@@ -41,6 +41,9 @@ En caso de tener otro tipo de hosting local no hace falta acceder , como en el c
 ### Carpetas y ficheros
 #### Carpetas
 * app , codigo de la aplicaicón.
+ * http/Controllers , Contiene los contralores que interactuarán con los modelos.
+ * http/Middleware , validación de permisos y clases intermedias.
+ * http/route.php , es el fichero que define las rutas de nuestros direcotiros.
 * config , configuración de la aplicación.
 * databsae , definición de la base de datos. 
 * public , se aloja el contenido público y los archivos css , js y otros de dominio público.
@@ -54,6 +57,9 @@ En caso de tener otro tipo de hosting local no hace falta acceder , como en el c
 * vendor , librerias y dependencias del framework de Laravel,  que se actualiza por lo instalado anteriormente que es composer.
 
 #### Ficheros
+
+* `.env` , este fichero ya se dijo que contiene la configuración del host en el que se encuentra y tiene que estar excluido de nuestro fichero `.gitignore` , para que no lo suba y la configuración sea independiente entre equipos y no machaque la configuración de las peronas que estén trabajando en nuestro proyecto.
+* composer.json , contiene las dependencias instaladas por laravel. Se puede introducir a mano para librerías externas no incluidas en las librerías de laravel.
 
 https://www.gitbook.com/book/ajgallego/laravel-5/details
 
