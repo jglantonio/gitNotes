@@ -81,4 +81,5 @@ php artisan serve --port=8080
 * En el fichero `config`tenemos la configuración de nuestro proyecto
 * Fichero `.env` para las variables de entorno
 * Para saber la versión de laravel instalada es en el directorio local `php artisan --version`
+* Para que se ejecute correctamente route.php , hay que dar permisos totales a storage y bootstrap.
 
