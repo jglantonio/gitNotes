@@ -52,6 +52,7 @@ En caso de tener otro tipo de hosting local no hace falta acceder , como en el c
 * storage , información necesaria para la ejecución de la web.
 * test , pruebas de PHPUnit.
 * vendor , librerias y dependencias del framework de Laravel,  que se actualiza por lo instalado anteriormente que es composer.
+
 #### Ficheros
 
 https://www.gitbook.com/book/ajgallego/laravel-5/details
