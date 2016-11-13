@@ -17,7 +17,7 @@ Nos lo isntalará en :
 ````
 ~/.config/composer/vendor/laravel/installer
 ````
-o como señala la página https://laravel.com/docs/4.2/quick en  : 
+o como señala la página https://laravel.com/docs/4.2/quick en  :
 ````
 ~/.composer/vendor/bin
 ````
@@ -29,10 +29,10 @@ composer create-project laravel/laravel your-project-name 4.2.*
 o
 composer	create-project	laravel/laravel	miweb	--prefer-dist
 ````
-*Nota :* Es necesario el phpXX-mcrypt 
+*Nota :* Es necesario el phpXX-mcrypt
 
 Damos todos los permisos a las carpetas storage y bootstrap/cache
-se ejecuta el servidor de laravel : 
+se ejecuta el servidor de laravel :
 ````
 php artisan serve --port=8080
 ````
@@ -45,13 +45,13 @@ En caso de tener otro tipo de hosting local no hace falta acceder , como en el c
  * http/Middleware , validación de permisos y clases intermedias.
  * http/route.php , es el fichero que define las rutas de nuestros direcotiros.
 * config , configuración de la aplicación.
-* databsae , definición de la base de datos. 
+* databsae , definición de la base de datos.
 * public , se aloja el contenido público y los archivos css , js y otros de dominio público.
-* resources , tiene otras carpetas : 
+* resources , tiene otras carpetas :
   * view , plantillas HTML , que usean los controladores , pero no se almacena el s ni css o imágenes , que se ala macenan el a carpeta de `public`
   * lang , Se guardan los arhivos php , donde están los arrays de los distintos idiomas.
   * assets , fuentes del tipo less o sass , no se suele usar porque se escribe directamente en `public`
-* bootstrap , 
+* bootstrap .
 * storage , información necesaria para la ejecución de la web.
 * test , pruebas de PHPUnit.
 * vendor , librerias y dependencias del framework de Laravel,  que se actualiza por lo instalado anteriormente que es composer.
@@ -59,7 +59,14 @@ En caso de tener otro tipo de hosting local no hace falta acceder , como en el c
 #### Ficheros
 
 * `.env` , este fichero ya se dijo que contiene la configuración del host en el que se encuentra y tiene que estar excluido de nuestro fichero `.gitignore` , para que no lo suba y la configuración sea independiente entre equipos y no machaque la configuración de las peronas que estén trabajando en nuestro proyecto.
-* composer.json , contiene las dependencias instaladas por laravel. Se puede introducir a mano para librerías externas no incluidas en las librerías de laravel.
+* `composer.json` , contiene las dependencias instaladas por laravel. Se puede introducir a mano para librerías externas no incluidas en las librerías de laravel.
+* `route.php` , este fichero está situado en `app/Http/` , en este fichero nosotros definimos la redirecciones de los directorios de nuestra aplicación web.
+````
+Route:get('<url>',<Acción a tomar>);
+````
+  * Si hace referencia a `/`irá a `localhost/<miproyecto>/`
+
+  Por lo general nosotros usaremos `get` aunque lo más aconsejable es usar `post`.
 
 https://www.gitbook.com/book/ajgallego/laravel-5/details
 http://www.desarrolloweb.com/articulos/tareas-instalacion-laravel5-problemas.html
@@ -71,7 +78,7 @@ php artisan route:list
 ````
 
 ````
-php artisan 
+php artisan
 ````
 Para ejecutar nuestro servidor web en el puerto 8080
 ````
@@ -82,4 +89,3 @@ php artisan serve --port=8080
 * Fichero `.env` para las variables de entorno
 * Para saber la versión de laravel instalada es en el directorio local `php artisan --version`
 * Para que se ejecute correctamente route.php , hay que dar permisos totales a storage y bootstrap.
-
