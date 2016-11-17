@@ -19,6 +19,37 @@ $logic = function(){
 };
 Route::get('my/page',$logic);
 ````
+Para redirigir a un usuario que no ha iniciado sesión lo podemos redirigr de la siguiente manera.
+
+````
+Route::get('libros',function(){
+    if(Auth::guest()){
+        return Redirect::to('login');
+    }
+});
+````
+Los las urls como por ejemplo `<parte1>/<parte2>`.
+
+````
+Route::get('pez/{tipo?}',function($tipo){
+    return "El pez es $tipo";
+});
+````
+Para este caso , por ejemplo `$tipo` es la parte2 , y el parte1 es pez , 
+por consiguiente la url que escribiríamos sería `localhost:8000/pez/gordo`esto accedería 
+a dicha url , y nos pondŕia el texto "El pez gordo".
+
+Para otros casos : 
+
+````
+Route::get('pez/{tipo?}',function($tipo){
+    if ($genero == null){
+        return "¿Opcion de pez?";
+    }
+    return "El pez es $tipo";
+});
+````
+Esto redirige a otro sitio , es un if trivial.
 
 ### Metodos de routing.
 * `Route::get()` , nos sirve como otro otro cualquiera
@@ -27,7 +58,30 @@ Route::get('my/page',$logic);
 * `Route::any(<url>,<accion>)`, responde a cualquier verbo. 
 * `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo , pero en un conjunto de verbos que puede estar dentro de lo que llamamos `actions de routing`. 
 * `Route::controller(<direccion>,<controldor_nombre>)`, asocia una url a un controlador.
+* `Route::make , nos permite crear nuestro propio objeto de respuesta
+
+
 
 ## Notas
 * Se aconseja usar los verbos correctos para una correcta programación y para que esta sea lo más transparente posible.
-http://laraveles.com/docs/5.0/controllers
+* Nos podemos fijar en el `tipo` que dicha variable tiene `?` eso quiere decir,  que dicha variable a poner es voluntaria,
+el sacar eso de haí estamos diciendo que es obligatoria.
+
+## Links
+
+* http://laraveles.com/docs/5.0/controllers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
