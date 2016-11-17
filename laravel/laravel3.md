@@ -25,8 +25,8 @@ Route::get('my/page',$logic);
 * `Route::post()` , también nos serviría pero este se usa por ejemplo para el caso de los formularios.
 * `Route::match(['metodo1' , 'metodo2'],<Url>,<accción>)` , es un método que puede llamar a multiples verbos.
 * `Route::any(<url>,<accion>)`, responde a cualquier verbo. 
-* `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo. 
-* `Route::controller(<direccion>,<controldor_nombre>), asocia una url a un controlador.
+* `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo , pero en un conjunto de verbos que puede estar dentro de lo que llamamos `actions de routing`. 
+* `Route::controller(<direccion>,<controldor_nombre>)`, asocia una url a un controlador.
 
 ## Notas
 * Se aconseja usar los verbos correctos para una correcta programación y para que esta sea lo más transparente posible.
