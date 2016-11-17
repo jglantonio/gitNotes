@@ -26,6 +26,8 @@ Route::get('my/page',$logic);
 * `Route::match(['metodo1' , 'metodo2'],<Url>,<accción>)` , es un método que puede llamar a multiples verbos.
 * `Route::any(<url>,<accion>)`, responde a cualquier verbo. 
 * `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo. 
+* `Route::controller(<direccion>,<controldor_nombre>), asocia una url a un controlador.
 
 ## Notas
 * Se aconseja usar los verbos correctos para una correcta programación y para que esta sea lo más transparente posible.
+http://laraveles.com/docs/5.0/controllers
