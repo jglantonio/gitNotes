@@ -74,7 +74,7 @@ Para clonar una rama en concreto se hace :
 
 ## Subir un directorio a un repositorio
 ````
-cd <directorio
+cd <directorio>
 git init
 git add .
 git commit -m 'mensaje'
@@ -83,7 +83,7 @@ git push push origin master
 ````
 ## Subir un directorio a una rama de nuestro repositorio
 ````
-cd <directorio
+cd <directorio>
 git init
 git add .
 git commit -m 'mensaje'
@@ -101,4 +101,7 @@ Tenemos la opcion `--decorate` para que salga más agradable a la vista. .
 ````
 git log --all --pretty=format:"%h %cd %s (%an)" --since='20 days ago'
 ````
+## Links
 
+* Repositorio de [GitHub .gitignores](https://github.com/github/gitignore).
+* Formateo de texto en [este link](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
