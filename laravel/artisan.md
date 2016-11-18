@@ -1,5 +1,5 @@
-#Artisan
-
+# Artisan
+## Comandos
 Ejecuta el servidor en el localhost:8000
 
 `php artisan serve`
@@ -12,3 +12,14 @@ Para limpiar la cache de rutas, sin que se generen nuevas :
 
 `php artisan route:clear`
 
+## Creación de elementos
+
+El comando make te ayuda a crear distintos tipos de elementos : 
+
+Este primero te crea eñ controlador vacio.
+
+`php artisan make:controller PhotoController`
+
+este te crea el controlador con todas las clases que se suelen usar.
+
+`php artisan make:controller PhotoController --resource`
