@@ -58,7 +58,7 @@ Esto redirige a otro sitio , es un if trivial.
 * `Route::any(<url>,<accion>)`, responde a cualquier verbo. 
 * `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo , pero en un conjunto de verbos que puede estar dentro de lo que llamamos `actions de routing`. 
 * `Route::controller(<direccion>,<controldor_nombre>)`, asocia una url a un controlador.
-* `Route::make , nos permite crear nuestro propio objeto de respuesta
+* `Route::make` , nos permite crear una nueva intancia de nuestro propio objeto.
 
 
 
