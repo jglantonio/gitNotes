@@ -6,4 +6,6 @@
 
 ## Notas
 ### Camuflar el link de una imagen.
-Se redirige a un fichero html donde este tenga un header con una cabecera jpg o de formato imagen , luego simplemente se pone el link original con la imagen pasada por parámetro desde el php anterior.
+Se redirige a un fichero html donde este tenga un header con una cabecera jpg o
+de formato imagen , luego simplemente se pone el link original con la imagen
+pasada por parámetro desde el php anterior.
