@@ -1,5 +1,11 @@
 # Artisan
 ## Comandos
+Par crear un proyecto
+
+`composer create-project --prefer-dist laravel/laravel`
+
+Esto lo que hace es crear un proyecto en su última versión estable.
+
 Ejecuta el servidor en el localhost:8000
 
 `php artisan serve`
@@ -14,7 +20,7 @@ Para limpiar la cache de rutas, sin que se generen nuevas :
 
 ## Creación de elementos
 
-El comando make te ayuda a crear distintos tipos de elementos : 
+El comando make te ayuda a crear distintos tipos de elementos :
 
 Este primero te crea eñ controlador vacio.
 

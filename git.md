@@ -43,7 +43,7 @@ git pull origin <rama>
 ````
 ## TIPS
 ### Ir a un commit en concreto hacia atrás.
-#### Paso 1 
+#### Paso 1
 Hacer un reset hard a un punto en concreto del proyectos
 ````
 git reset -- hard <id>
@@ -53,8 +53,8 @@ Luego si necesitamos hacer un push se realiza de la siguiente forma
 ```
 git push origin <rama> --force
 ```
-Con esto lo que hace será subir nuestro commit, pero eliminará todos 
-los que habia delante de este `id`en el `Paso 1`. 
+Con esto lo que hace será subir nuestro commit, pero eliminará todos
+los que habia delante de este `id`en el `Paso 1`.
 
 ### Eliminar una rama
 
@@ -90,11 +90,11 @@ git commit -m 'mensaje'
 git remote add origin <url>
 git checkout -b <rama>
 git commit -m 'mensaje'
-git push push origin <rama>
+git push origin <rama>
 ````
 ## Crear un árbol en linea de comandos.
 ````
-git log --graph --oneline --all 
+git log --graph --oneline --all
 ````
 Tenemos la opcion `--decorate` para que salga más agradable a la vista. .
 ## Ver historial de git de los cambios locales realizados.

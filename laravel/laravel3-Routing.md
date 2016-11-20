@@ -35,11 +35,11 @@ Route::get('pez/{tipo?}',function($tipo){
     return "El pez es $tipo";
 });
 ````
-Para este caso , por ejemplo `$tipo` es la parte2 , y el parte1 es pez , 
-por consiguiente la url que escribiríamos sería `localhost:8000/pez/gordo`esto accedería 
+Para este caso , por ejemplo `$tipo` es la parte2 , y el parte1 es pez ,
+por consiguiente la url que escribiríamos sería `localhost:8000/pez/gordo`esto accedería
 a dicha url , y nos pondŕia el texto "El pez gordo".
 
-Para otros casos : 
+Para otros casos :
 
 ````
 Route::get('pez/{tipo?}',function($tipo){
@@ -55,12 +55,11 @@ Esto redirige a otro sitio , es un if trivial.
 * `Route::get()` , nos sirve como otro otro cualquiera
 * `Route::post()` , también nos serviría pero este se usa por ejemplo para el caso de los formularios.
 * `Route::match(['metodo1' , 'metodo2'],<Url>,<accción>)` , es un método que puede llamar a multiples verbos.
-* `Route::any(<url>,<accion>)`, responde a cualquier verbo. 
-* `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo , pero en un conjunto de verbos que puede estar dentro de lo que llamamos `actions de routing`. 
+* `Route::any(<url>,<accion>)`, responde a cualquier verbo.
+* `Route::group(<middleware>=> <name>,<accion>){ actions de routing }`, responde a cualquier verbo , pero en un conjunto de verbos que puede estar dentro de lo que llamamos `actions de routing`.
 * `Route::controller(<direccion>,<controldor_nombre>)`, asocia una url a un controlador.
 * `Route::make` , nos permite crear una nueva intancia de nuestro propio objeto.
-
-
+* `Route::resource(<url>,<controlador>)`,
 
 ## Notas
 * Se aconseja usar los verbos correctos para una correcta programación y para que esta sea lo más transparente posible.
@@ -70,18 +69,3 @@ el sacar eso de haí estamos diciendo que es obligatoria.
 ## Links
 
 * http://laraveles.com/docs/5.0/controllers
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

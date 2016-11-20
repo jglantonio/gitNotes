@@ -1,4 +1,0 @@
-# Vistas
-## Introducción
-
-Laravel asume que las vistas estan en app/views. , se puede usar `View o View::make`
