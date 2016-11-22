@@ -101,6 +101,16 @@ Tenemos la opcion `--decorate` para que salga más agradable a la vista. .
 ````
 git log --all --pretty=format:"%h %cd %s (%an)" --since='20 days ago'
 ````
+## Eliminar un repositorio remoto
+````
+git remote rm <nombre_repositorio>
+
+````
+Eso lo vemos con
+````
+git remote -v
+````
+Esto nos devolverá la infomración encesaria
 ## Links
 
 * Repositorio de [GitHub .gitignores](https://github.com/github/gitignore).
