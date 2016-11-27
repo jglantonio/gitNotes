@@ -41,6 +41,11 @@ Descargamos dentro del origin a la rama que corresponde
 ````
 git pull origin <rama>
 ````
+Para eliminar los comentarios que tenemos de un commit
+````
+git reset
+````
+
 ## TIPS
 ### Ir a un commit en concreto hacia atrás.
 #### Paso 1
