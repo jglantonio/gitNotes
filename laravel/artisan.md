@@ -29,3 +29,7 @@ Este primero te crea eñ controlador vacio.
 este te crea el controlador con todas las clases que se suelen usar.
 
 `php artisan make:controller PhotoController --resource`
+
+Crear un nuevo middleware
+
+`php artisan make:middleware AlumnosMiddleware`
