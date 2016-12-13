@@ -17,9 +17,17 @@ de los eventos.
 * Con el atributo con nombre `ngModel` asignará el valor al que tenga asignado su
 valor `ngModel="hola"` , asignará este valor direcamente.
 * `[ngModel]` otra forma de definir una función en un evento.
-* `[()]`Hace un doble binding. , apunta al input que está detnro del igual.
+* `[()]`Hace un doble binding. , apunta al input que está dentro del igual , donde
+cambiará el valor.
 
 ### ngOnInit()
 
 En este sitio definiremos los inicios de las variables , es **mejor** que el propio
 constructor que existe.
+
+
+## Notas
+
+* `let <values> of <values>`, sería un foreach en php. Esto se saca de las partes
+del modelo donde están definidas en caso de ser pocos valores en caso contrario
+se sacaría de la db.
