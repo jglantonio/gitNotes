@@ -31,3 +31,5 @@ constructor que existe.
 * `let <values> of <values>`, sería un foreach en php. Esto se saca de las partes
 del modelo donde están definidas en caso de ser pocos valores en caso contrario
 se sacaría de la db.
+* `{{<objeto>|<objeto>}}` , a las `|` se les llaman pipes , de la jerga de linux , donde aparece un objeto
+o en su defecto otro.
