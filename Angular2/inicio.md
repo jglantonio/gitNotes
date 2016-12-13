@@ -25,7 +25,7 @@ librería , es desde donde va tirando el *'webpack'* para ir tirando de la aplic
 ## Commandos
 
 * `npm i`, carga el repositorio del json.
-* `ng serve` crea un servidor https
+* `ng serve` arranca un servidor http en el puerto 4200 , se ejecuta en la raíz.
 * `npm i -g tslist` Es una herramienta de visual studio.
 
 ## Notas
