@@ -20,6 +20,10 @@ valor `ngModel="hola"` , asignará este valor direcamente.
 * `[()]`Hace un doble binding. , apunta al input que está dentro del igual , donde
 cambiará el valor.
 
+# ts
+
+* Para un `filter` sería un bucle for que compara y devuelve los esperados
+
 ## ngOnInit()
 
 En este sitio definiremos los inicios de las variables , es **mejor** que el propio
