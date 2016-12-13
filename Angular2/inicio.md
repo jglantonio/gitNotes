@@ -26,6 +26,7 @@ librería , es desde donde va tirando el *'webpack'* para ir tirando de la aplic
 
 * `npm i`, carga el repositorio del json.
 * `ng serve` crea un servidor https
+* `npm i -g tslist` Es una herramienta de visual studio.
 
 ## Notas
 
