@@ -24,3 +24,6 @@ KILL ID
 <Consulta_Select>
 into outfile '<directorio>.csv' 
 ````
+
+## Mostrar la consulta que construye una vista.
+`Show create view`
