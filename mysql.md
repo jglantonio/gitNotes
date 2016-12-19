@@ -25,5 +25,12 @@ KILL ID
 into outfile '<directorio>.csv' 
 ````
 
-## Mostrar la consulta que construye una vista.
-`Show create view`
+## Comandos.
+Mostrar todas las tablas :<br>
+`show tables`<br>
+Mostrar todas las tablas incluidas las vistas : 
+`show full tables in <bd>`<br>
+Mosntrar contenido de una tabla
+`Show create view`<br>
+
+
