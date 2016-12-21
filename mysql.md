@@ -24,6 +24,11 @@ KILL ID
 <Consulta_Select>
 into outfile '<directorio>.csv' 
 ````
+## Consultas
+
+Sumatorio que esté especificado arriba en el select
+
+ORDER BY <campo> WITH ROLLUP
 
 ## Comandos.
 Mostrar todas las tablas :<br>
