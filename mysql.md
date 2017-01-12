@@ -38,4 +38,15 @@ Mostrar todas las tablas incluidas las vistas :
 Mosntrar contenido de una tabla
 `Show create view`<br>
 
+### Edición de tablas
 
+Añadir una columna
+````
+ALTER TABLE <tabla> ADD <columna> DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER <columna>;
+````
+Eliminar una columna
+````
+ALTER TABLE <tabla> DROP <columna>;
+````
+
+NOTA : Para versiones mayores de 5.6.5 , para menores habría que meter en este campo el TIMESTAMP.
