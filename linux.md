@@ -3,7 +3,7 @@ Comandos útiles en Linux
 ## 1. Comandos
 ### 1.1. Navegacion
 Para navegar por las carpetas y saber algo en concreto se usa
-`more` para que solgo tenga salida lo que queremos de dicho 
+` | grep "<expresion>"` para que solo tenga salida lo que queremos de dicho 
 comando , por ejemplo , en una carpeta que tiene 3.232 elementos
 y solo nos interesa el fichero que tenga el nombre "hola".
 ```
@@ -11,6 +11,7 @@ ls / -lR | grep "hola"
 ```
  * `l` para poner en detalle todos los documentos.
  * `R` que sea de forma recursiva
+ * `|` es un pipe o formato
  
 ### 1.2. Permisos
 #### 1.2.1. Para carpetas
@@ -44,4 +45,9 @@ scp -r <user>@<ip>:/<dirección_fichero> <destino>
 Para buscar una palabra en un fichero o directorio.
 ```
 grep -r "texto" <directorio>
+```
+### 1.3.3 Datos de una carpeta
+Contar los elementos que existen en una carpeta
+````
+ls | wc -l
 ```
