@@ -17,11 +17,11 @@ ls / -lR | grep "hola"
 #### 1.2.1. Para carpetas
 Para dar permisos a una carpeta 
 ```
-sudo chmod 777 <carpeta>
+sudo chmod 755 <carpeta>
 ```
 Para dar permisos a las subcarpetas
 ```
-sudo chmod 777 <carpeta> -R
+sudo chmod 755 <carpeta> -R
 ```
 #### 1.2.2. Para usuarios
 Para asignar a un usuario de un grupo para el uso de una carpeta.
@@ -39,7 +39,9 @@ cp -r <origen>/<fichero> <destino>/>fichero>
 ```
 scp -r <user>@<ip>:/<dirección_fichero> <destino>
 ```
-
+```
+rsync -avzh <user>@<ip>:<directorio> <directorio destino> --recursive
+```
 ### Busqueda
 
 Para buscar una palabra en un fichero o directorio.
