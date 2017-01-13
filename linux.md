@@ -11,7 +11,7 @@ ls / -lR | grep "hola"
 ```
  * `l` para poner en detalle todos los documentos.
  * `R` que sea de forma recursiva
- * `|` es un pipe o formato
+ * `|` pipe
  
 ### 1.2. Permisos
 #### 1.2.1. Para carpetas
