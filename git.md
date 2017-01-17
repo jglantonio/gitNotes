@@ -76,7 +76,18 @@ Para clonar una rama en concreto se hace :
 
 `git clone -b <nombre_branch> <url_proyecto>`
 
-
+## Acciones que hacer con una rama.
+### Borrar de forma local una rama
+git branch -D <nombre_branch>
+### Modificar el nombre de una rama
+````
+git branch -m <nuevo_nombre>
+````
+o
+````
+git branch -m <viejo_nombre> <nuevo_nombre>
+````
+Con la primera consulta nos podemos ahorrar un `git bramch <rama>`
 ## Subir un directorio a un repositorio
 ````
 cd <directorio>
