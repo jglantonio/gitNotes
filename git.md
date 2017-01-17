@@ -78,7 +78,9 @@ Para clonar una rama en concreto se hace :
 
 ## Acciones que hacer con una rama.
 ### Borrar de forma local una rama
+````
 git branch -D <nombre_branch>
+````
 ### Modificar el nombre de una rama
 ````
 git branch -m <nuevo_nombre>
