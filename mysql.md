@@ -1,9 +1,14 @@
 # ATAJOS MYSQL
 ## Exportar base de datos
 
-````
-mysqldump -u user -p nombreBaseDeDatos > baseDeDatos.sql
+Exportar una base de datos entera
 
+````
+mysqldump -u <user> -p<password> nombreBaseDeDatos > baseDeDatos.sql
+````
+Exportar una tabla en concreto de una base de datos.
+````
+mysqldump -u <user> -p<password> nombreBasdeDatos tablaDeLaBaseDeDatos > NombreTablaAExportar.sql
 ````
 ## Para el error ERROR 1031 (HY000)
 
