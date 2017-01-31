@@ -35,12 +35,23 @@ Sumatorio que esté especificado arriba en el select
 
 ORDER BY <campo> WITH ROLLUP
 
-## Comandos.
-Mostrar todas las tablas :<br>
-`show tables`<br>
+## Comandos
+Limpiar pantalla 
+```
+system clear;
+```
+Mostrar todas las tablas  : 
+```
+show tables
+```
 Mostrar todas las tablas incluidas las vistas : 
-`show full tables in <bd>`<br>
-
+```
+show full tables
+```
+Mostrar todas las tablas incluidas las vistas : 
+```
+show full tables
+```
 ### Edición de tablas
 
 Añadir una columna
