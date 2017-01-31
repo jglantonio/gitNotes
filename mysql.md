@@ -48,10 +48,6 @@ Mostrar todas las tablas incluidas las vistas :
 ```
 show full tables
 ```
-Mostrar todas las tablas incluidas las vistas : 
-```
-show full tables
-```
 ### Edición de tablas
 
 Añadir una columna
