@@ -59,7 +59,7 @@ Eliminar una columna
 ALTER TABLE <tabla> DROP <columna>;
 ````
 
-NOTA : Para versiones mayores de 5.6.5 , para menores habría que meter en este campo el TIMESTAMP.
+> NOTA : Para versiones mayores de 5.6.5 , para menores habría que meter en este campo el TIMESTAMP.
 
 Reemplazar caracteres.
 ````
