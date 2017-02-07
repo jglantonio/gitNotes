@@ -3,13 +3,18 @@
 
 Exportar una base de datos entera
 
-````
+```
 mysqldump -u <user> -p<password> nombreBaseDeDatos > baseDeDatos.sql
-````
+```
 Exportar una tabla en concreto de una base de datos.
-````
+```
 mysqldump -u <user> -p<password> nombreBasdeDatos tablaDeLaBaseDeDatos > NombreTablaAExportar.sql
-````
+```
+Importar una base de datos entera o una tabla de la base de datos.
+```
+mysql -u <user> -p namedb  <table/db>.sql
+```
+
 ## Para el error ERROR 1031 (HY000)
 
 Este error se suele dar cuando se quiere importar.
