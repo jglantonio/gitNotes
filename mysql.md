@@ -60,3 +60,8 @@ ALTER TABLE <tabla> DROP <columna>;
 ````
 
 NOTA : Para versiones mayores de 5.6.5 , para menores habría que meter en este campo el TIMESTAMP.
+
+Reemplazar caracteres.
+````
+ UPDATE <table> SET <columna> = REPLACE(<columna>,<stringA>,<StringB>) WHERE value LIKE '%<StringA>%';
+````
