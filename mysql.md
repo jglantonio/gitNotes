@@ -12,7 +12,7 @@ mysqldump -u <user> -p<password> nombreBasdeDatos tablaDeLaBaseDeDatos > NombreT
 ```
 Importar una base de datos entera o una tabla de la base de datos.
 ```
-mysql -u <user> -p namedb  <table/db>.sql
+mysql -u <user> -p namedb  < <table/db>.sql
 ```
 
 ## Para el error ERROR 1031 (HY000)
