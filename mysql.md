@@ -56,17 +56,21 @@ show full tables
 ### Edición de tablas
 
 Añadir una columna
-````
+```
 ALTER TABLE <tabla> ADD <columna> DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER <columna>;
-````
+```
+Editar columna
+```
+AlTER TABLE <tabla> MODIFY COLUMN NOT NULL <TYPE> DEFAULT <VALUE><NULL>;
+```
 Eliminar una columna
-````
+```
 ALTER TABLE <tabla> DROP <columna>;
-````
-
-> NOTA : Para versiones mayores de 5.6.5 , para menores habría que meter en este campo el TIMESTAMP.
+```
 
 Reemplazar caracteres.
-````
+```
  UPDATE <table> SET <columna> = REPLACE(<columna>,<stringA>,<StringB>) WHERE value LIKE '%<StringA>%';
-````
+```
+# NOTAS 
+ * Para versiones mayores de 5.6.5 CURRENT_TIMESTAMP , pero para menores habría  que meter en este campo el TIMESTAMP.
