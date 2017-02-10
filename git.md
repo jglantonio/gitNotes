@@ -14,9 +14,9 @@
 ##Primeros pasos
 
 Primero sabemos donde estamos
-````
+```
 git-status
-````
+```
 Creamos la nueva rama si no existen con “-b” hacemos que la cree. Sustituye a git branch <rama> y git checkout <rama>.
 ````
 git checkout -b <rama>
@@ -44,6 +44,13 @@ git pull origin <rama>
 Para eliminar los comentarios que tenemos de un commit
 ````
 git reset
+````
+
+Para mezclar el contenido de dos ramas , tenemos la de origen que será a la 
+que le queramos mezclar lo de un destino.
+Por decirlo de otra manera el *"destino"* prebalece sobre el *"origen"*.
+````
+git merge <origen> <destino>
 ````
 
 ## TIPS
