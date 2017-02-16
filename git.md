@@ -98,7 +98,7 @@ git branch -m <viejo_nombre> <nuevo_nombre>
 ````
 Con la primera consulta nos podemos ahorrar un `git bramch <rama>`
 
-## Pasar de una rama a otra 
+### Pasar de una rama a otra 
 ```
 git branch -f <rama>
 ```
