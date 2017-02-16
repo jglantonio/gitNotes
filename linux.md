@@ -53,3 +53,7 @@ Contar los elementos que existen en una carpeta
 ````
 ls | wc -l
 ```
+Carpetas dentro de un directorio
+```
+ls -d */
+```
