@@ -97,17 +97,22 @@ o
 git branch -m <viejo_nombre> <nuevo_nombre>
 ````
 Con la primera consulta nos podemos ahorrar un `git bramch <rama>`
+
+## Pasar de una rama a otra 
+```
+git branch -f <rama>
+```
 ## Subir un directorio a un repositorio
-````
+```
 cd <directorio>
 git init
 git add .
 git commit -m 'mensaje'
 git remote add origin <url>
 git push push origin master
-````
+```
 ## Subir un directorio a una rama de nuestro repositorio
-````
+```
 cd <directorio>
 git init
 git add .
@@ -116,11 +121,11 @@ git remote add origin <url>
 git checkout -b <rama>
 git commit -m 'mensaje'
 git push origin <rama>
-````
+```
 ## Crear un árbol en linea de comandos.
-````
+```
 git log --graph --oneline --all
-````
+```
 Tenemos la opcion `--decorate` para que salga más agradable a la vista. .
 ## Ver historial de git de los cambios locales realizados.
 ````
