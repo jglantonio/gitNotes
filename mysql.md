@@ -54,7 +54,10 @@ Mostrar todas las tablas incluidas las vistas :
 show full tables
 ```
 ### Edición de tablas
-
+Copiar una tabla
+```
+CREATE TABLE <tabla_destino> SELECT * FROM <table_origen>;
+```
 Añadir una columna
 ```
 ALTER TABLE <tabla> ADD <columna> DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER <columna>;
@@ -67,7 +70,6 @@ Eliminar una columna
 ```
 ALTER TABLE <tabla> DROP <columna>;
 ```
-
 Reemplazar caracteres.
 ```
  UPDATE <table> SET <columna> = REPLACE(<columna>,<stringA>,<StringB>) WHERE value LIKE '%<StringA>%';
