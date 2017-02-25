@@ -40,19 +40,6 @@ Sumatorio que esté especificado arriba en el select
 
 ORDER BY <campo> WITH ROLLUP
 
-## Comandos
-Limpiar pantalla 
-```
-system clear;
-```
-Mostrar todas las tablas  : 
-```
-show tables
-```
-Mostrar todas las tablas incluidas las vistas : 
-```
-show full tables
-```
 ### Edición de tablas
 Copiar una tabla
 ```
