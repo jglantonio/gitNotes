@@ -3,7 +3,10 @@
 
 Para compilar en `c` , podremos usar cualquier editor de texto, necestamos un compilador
 que suele ser por defecto en Mac y Linux . `gcc`.
-## Atajos
+
+## Tips
+
+### Compilar y ejecutar un programa
 
 Compilar un proyecto en c.
 ````
