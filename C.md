@@ -7,14 +7,14 @@ que suele ser por defecto en Mac y Linux . `gcc`.
 
 Compilar un proyecto en c.
 ````
-gcc -Wall main.c -o main
+   gcc -Wall main.c -o main
 ````
-  * `-Wall` Nos informa de todos los errores (Warning , Erro) existentes.<br>
-  * -o Crea main.c a un objeto .o que lo transforma en un ejecutable.
+  * `-Wall` Nos informa de todos los errores (Warning , Erro) existentes.
+  * -o Crea `main.c` a un objeto .o que lo transforma en un ejecutable.
 
 Ejecutar
 ````
-./main
+   ./main
 ````
 
 ## Fuente : 
