@@ -72,13 +72,13 @@ los que habia delante de este `id`en el `Paso 1`.
 **Situacion ** : Dejar de seguir un fichero/carpeta que no queremos mantener
 en nuestro repositorio git.
 
-####Para el caso de un directorio
+#### Para el caso de un directorio
 ````
  git rm --cached <directorio> -r
 ````
   * `-r` , haace el borrado de forma recursiva.
   
-####Para el caso de un fichero
+#### Para el caso de un fichero
 ````
  git rm --cached <fichero> 
 ````
