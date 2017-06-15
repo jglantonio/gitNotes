@@ -68,6 +68,22 @@ git push origin <rama> --force
 Con esto lo que hace será subir nuestro commit, pero eliminará todos
 los que habia delante de este `id`en el `Paso 1`.
 
+### Dejar de seguir un fichero o carpeta
+**Situacion ** : Dejar de seguir un fichero/carpeta que no queremos mantener
+en nuestro repositorio git.
+
+####Para el caso de un directorio
+````
+ git rm --cached <directorio> -r
+````
+  * `-r` , haace el borrado de forma recursiva.
+  
+####Para el caso de un fichero
+````
+ git rm --cached <fichero> 
+````
+
+
 ### Eliminar una rama
 
 Eliminar una rama creada por equivocación de forma local
