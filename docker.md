@@ -13,11 +13,12 @@ Para encontrar las imágenes que nos interesa , podemos buscar con
 Para listar las imágenes que tenemos instaladas , se ejecuta.
 `docker images` , donde nosotros podemos ver la lista de elementos instalados.
 
-`
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-ubuntu              latest              d355ed3537e9        4 days ago          119 MB
-hello-world         latest              1815c82652c0        11 days ago         1.84 kB
-`
+
+REPOSITORY        |  TAG         |        IMAGE ID        |    CREATED         |    SIZE
+------            |   ------     |         --------       |    ---------       |   -------
+ubuntu            |  latest      |        d355ed3537e9    |    4 days ago      |    119 MB
+hello-world       |  latest      |        1815c82652c0    |    11 days ago     |    1.84 kB
+
 ### Ejecutar una imagen
 
 `
