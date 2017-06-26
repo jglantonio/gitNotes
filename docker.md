@@ -23,9 +23,8 @@ hello-world       |  latest      |        1815c82652c0    |    11 da
 `
 docker build - < Dockerfile
 `
-### Ejecutar una imagen
+### Ejecutar linea de comandos en una imagen
 
 `
 sudo docker run -i -t <id> /bin/bash
 `
-
