@@ -19,6 +19,10 @@ REPOSITORY        |  TAG         |        IMAGE ID        |    
 ubuntu            |  latest      |        d355ed3537e9    |    4 days ago      |    119 MB
 hello-world       |  latest      |        1815c82652c0    |    11 days ago     |    1.84 kB
 
+### Crear imagen docker
+`
+docker build - < Dockerfile
+`
 ### Ejecutar una imagen
 
 `
