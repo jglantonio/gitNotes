@@ -1,5 +1,15 @@
 # Javascript
 
+## Flujos de control
+
+### foreach
+
+`
+$.each(<variable>,function(){
+ /// codigo
+});
+`
+
 ## TIPS
 
 ### Peticiones ajax
