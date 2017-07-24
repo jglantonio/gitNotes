@@ -18,7 +18,7 @@ $.each(<variable>,function(){
 $.ajax{
   url: "",
   dataType:'json',
-  delay:'json',
+  delay:250,
   cahe: false,
   data : {<datos};
 }
