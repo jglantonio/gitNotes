@@ -4,23 +4,26 @@
 
 ### foreach
 
-`
+```javascript
 $.each(<variable>,function(){
  /// codigo
 });
-`
+```
 
 ## TIPS
 
 ### Peticiones ajax
 
-````
+```javascript
 $.ajax{
-  url: "",
+  url: "lorem.ipsum.com/dolor",
   dataType:'json',
   delay:250,
   cahe: false,
-  data : {<datos};
+  data : {
+   "dato" : 1
+  },
+  success : function(){
+  }
 }
-
-````
+```
