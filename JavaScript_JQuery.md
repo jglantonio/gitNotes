@@ -17,6 +17,7 @@ $.each(<variable>,function(){
 ```javascript
 $.ajax{
   url: "lorem.ipsum.com/dolor",
+  type: "POST",
   dataType:'json',
   delay:250,
   cahe: false,
