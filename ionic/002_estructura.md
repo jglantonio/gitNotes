@@ -15,4 +15,3 @@ src/app/modules.ts
 En este fichero typescript , nosotros definimos nuestros módulos
 como se definen en Angular 1.
 
-
