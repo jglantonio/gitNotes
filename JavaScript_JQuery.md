@@ -9,12 +9,7 @@ $.each(<variable>,function(){
  /// codigo
 });
 ```
-### Array to json
 
-```javascript
- var array = [1,2,3];
- var json = JSON.stringify(array);
-```
 ## TIPS
 
 ### Peticiones ajax
@@ -32,4 +27,15 @@ $.ajax{
   success : function(){
   }
 }
+```
+### Array to json
+
+```javascript
+ var array = [1,2,3];
+ var json = JSON.stringify(array);
+```
+### Json to array
+
+```javascript
+ var json = JSON.parse(array);
 ```
