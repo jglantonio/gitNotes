@@ -15,7 +15,7 @@ $.each(<variable>,function(){
 ### Peticiones ajax
 
 ```javascript
-$.ajax{
+$.ajax({
   url: "lorem.ipsum.com/dolor",
   type: "POST",
   dataType:'json',
@@ -26,7 +26,7 @@ $.ajax{
   },
   success : function(){
   }
-}
+});
 ```
 ### Array to json
 
