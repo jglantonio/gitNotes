@@ -7,15 +7,31 @@
 
 ## 2 - Funciones útiles
 ### 2.1 - Trabajo con strings
-#### 2.1.1 - Contenido en un string
+#### 2.1.1 - Contenido en un string `strpos`
 
 Saber si una palabra se encuentra de un string específico.
 
 ```php
 $valor = 'Hola desde mi github';
-strpos($valor,'Hola'); // true
-strpos($valor,'Adios'); // false
+echo strpos($valor,'Hola'); // true
+echo strpos($valor,'Adios'); // false
 ```
+#### 2.1.2 - Logintud de un string `strlen`
+
+```php
+$valor = 'Hola';
+echo strlen($valor); //4
+```
+#### 2.1.3 - Extrae un string de otro `substr`
+Extrae  un string de otro , así solo extrayendo lo que se le señale.
+substr($valor,<posicion>,<caracteres a coger>)
+
+```php
+$valor = 'Hola';
+echo substr($valor,3,strlen($valor)); //a
+echo substr($valor,0,1); //H
+```
+
 
 ## 3 - Otras cosas útiles
 ### 3.1 - Camuflar el link de una imagen.
