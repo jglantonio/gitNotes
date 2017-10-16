@@ -39,3 +39,12 @@ $.ajax({
 ```javascript
  var json = JSON.parse(array);
 ```
+### Seelp
+
+```javascript
+ var time = 2000;
+ setTimeout(function(){
+   /// CODE
+ }, this.time);
+```
+* `time` , time en milisegundos 2000 = 2 segundos
