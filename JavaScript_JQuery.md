@@ -39,7 +39,7 @@ $.ajax({
 ```javascript
  var json = JSON.parse(array);
 ```
-### Seelp
+### Sleep
 
 ```javascript
  var time = 2000;
