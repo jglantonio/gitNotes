@@ -32,6 +32,20 @@ echo substr($valor,3,strlen($valor)); //a
 echo substr($valor,0,1); //H
 ```
 
+### 2.2 - Otras funciones
+
+#### 2.2.1 - Número aleatorio `mt_rand`
+
+Números aleatorios.
+
+```php
+$minimo = 1;
+$maximo = 10;
+mt_rand($minimo , $maximo);
+```
+* `mt_rand($minimo , $maximo);`
+* `$minimo` valor minimo desde el que se ejecuta `mt_rand`
+* `$maximo` valor máximo hasta el que se ejecuta `mt_rand`
 
 ## 3 - Otras cosas útiles
 ### 3.1 - Camuflar el link de una imagen.
