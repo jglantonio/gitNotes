@@ -65,5 +65,11 @@ Renombrar una columna
 ```sql
 RENAME TABLE <nombre_antiguo> TO <nuevo_nombre>
 ```
+Deshabilitar modo seguro
+
+```sql
+SET SQL_SAFE_UPDATES = 0;
+```
+
 # NOTAS 
  * Para versiones mayores de 5.6.5 CURRENT_TIMESTAMP , pero para menores habría  que meter en este campo el TIMESTAMP.
