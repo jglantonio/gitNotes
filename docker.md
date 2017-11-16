@@ -20,11 +20,26 @@ ubuntu            |  latest      |        d355ed3537e9    |    4 days ago      |
 hello-world       |  latest      |        1815c82652c0    |    11 days ago     |    1.84 kB
 
 ### Crear imagen docker
-`
+```
 docker build - < Dockerfile
-`
+```
 ### Ejecutar linea de comandos en una imagen
 
-`
+```
 sudo docker run -i -t <id> /bin/bash
-`
+```
+
+## Parar funcionamiento de un contenedor
+
+```
+docker rm -f <image>
+```
+## Listar contenedores
+```
+docker ps -l
+```
+##### X
+
+```
+docker run -d -p 8003:8003 --name php-server -v "$PWD":/var/www/html php-server:latest
+```
