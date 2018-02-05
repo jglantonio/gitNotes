@@ -164,6 +164,11 @@ Eso lo vemos con
 git remote -v
 ```
 Esto nos devolverá la infomración encesaria
+## Cambiar el usuario en un commit 
+Para cambiar el usuario en un commit , hay que ejecutar.
+```
+git commit --amend --author "New Author Name <New Author Email>"
+```
 ## Links
 
 * Repositorio de [GitHub .gitignores](https://github.com/github/gitignore).
