@@ -169,6 +169,28 @@ Para cambiar el usuario en un commit , hay que ejecutar.
 ```
 git commit --amend --author "New Author Name <New Author Email>"
 ```
+## Cherry pick
+Realizar un cherry pick
+
+``` git
+git remote add <nombre_repositorio> <url>
+git remote -v // Comprobamos si está añadido
+git checkout -b <nueva_rama>
+```
+Ya tenemos todo añadido
+
+``` git
+git cherry-pick a^..b
+```
+Con esto , decimos que queremos todos los comits del punto `a` al punto `b`, con el `a` incluido.
+Realizará commits sucesivos hasta llegar a un conflicto,  donde tendremos que solucionarlos
+
+``` git 
+git cherry-pick --abort // cancelamos el cherry-pick
+git cherry-pick --exit // Salimos del cherry-pick
+git cherry-pick --continue // Le decimos que siga el proceso
+```
+
 ## Links
 
 * Repositorio de [GitHub .gitignores](https://github.com/github/gitignore).
