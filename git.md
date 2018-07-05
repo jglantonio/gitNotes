@@ -190,6 +190,12 @@ git cherry-pick --abort // cancelamos el cherry-pick
 git cherry-pick --exit // Salimos del cherry-pick
 git cherry-pick --continue // Le decimos que siga el proceso
 ```
+## Ignorar ficheros y sacarlos de la lista de no ignorar
+
+``` git
+git update-index --assume-unchanged <file>
+git update-index --no-assume-unchanged <file>
+```
 
 ## Links
 
