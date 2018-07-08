@@ -1,0 +1,27 @@
+version: '3.3'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   apache:
+     depends_on:
+       - db
+     image: alterway/php:5.4-apache
+     ports:
+       - "8000:80"
+     restart: always
+     volumes:
+        - ~/webs/avm:/var/www/html/wp-content/themes/avm/
+volumes:
+    db_data:
+## Change name for docker-compose.yml
+## docker-compose up -d
