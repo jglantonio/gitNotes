@@ -11,7 +11,7 @@
 - git commit ,
 - git reset <fichero> , elimina un git add de un fichero en concreto.
 
-##Primeros pasos
+## Primeros pasos
 
 Primero sabemos donde estamos
 ```
@@ -192,9 +192,19 @@ git cherry-pick --continue // Le decimos que siga el proceso
 ```
 ## Ignorar ficheros y sacarlos de la lista de no ignorar
 
+Esto es para que no se tengan en cuenta los ficheros en los commits o en los add.
+Buena forma de comprobarllo es usar un `git merge <rama_en_la_que_se_hace_el_git_update`
+en la rama _origen_
+
 ``` git
 git update-index --assume-unchanged <file>
 git update-index --no-assume-unchanged <file>
+```
+
+## Hacer "reset hard" de un fichero específico
+
+``` git
+git checkout HEAD -- my-file.txt
 ```
 
 ## Links
