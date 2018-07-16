@@ -125,6 +125,12 @@ Con la primera consulta nos podemos ahorrar un `git bramch <rama>`
 ```
 git branch -f <rama>
 ```
+## Reset al HEAD de master
+
+```
+git reset --hard origin/master
+```
+
 ## Subir un directorio a un repositorio
 ```
 cd <directorio>
