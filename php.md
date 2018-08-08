@@ -52,3 +52,11 @@ mt_rand($minimo , $maximo);
 Se redirige a un fichero html donde este tenga un header con una cabecera jpg o
 de formato imagen , luego simplemente se pone el link original con la imagen
 pasada por parámetro desde el php anterior.
+
+### 3.2- Aumentar los caracteres del `var_dump`.
+```php
+ini_set('xdebug.var_display_max_depth', 5);
+ini_set('xdebug.var_display_max_children', 256);
+ini_set('xdebug.var_display_max_data', 1024);
+```
+https://stackoverflow.com/questions/9998490/how-to-get-xdebug-var-dump-to-show-full-object-array
