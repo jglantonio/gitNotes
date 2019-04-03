@@ -212,6 +212,14 @@ git update-index --no-assume-unchanged <file>
 ``` git
 git checkout HEAD -- my-file.txt
 ```
+## Git stash
+Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.
+```git
+git stash
+git checkout branch_lorem_ipsum
+git pop
+```
+
 
 ## Links
 
